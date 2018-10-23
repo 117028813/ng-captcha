@@ -1,18 +1,16 @@
 # NgCaptcha
 
-> [中文文档](https://github.com/117028813/ng-captcha/blob/master/README-CN.md)
+一个前端的angular验证码组件。
 
-A pure front-end angular captcha module.
+## 使用方法
 
-## Usage
-
-### Installation
+### 安装
 
 ```
 npm install --save ng-captcha
 ```
 
-### Import module
+### 引入组件
 
 app.module.ts
 
@@ -40,7 +38,7 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 
-### Basic
+### 基本示例
 
 app.component.html
 
@@ -82,8 +80,8 @@ export class AppComponent {
 
 ## API
 
-Property | Description | Type | Default
+参数 | 说明 | 类型 | 默认值
 --- | --- | --- | ---
-`width` | Captcha Width | number | `100`
-`height` | Captcha height | number | `50`
-`(generateCode)` | The callback function that is triggered when the captcha changes, when component init or click can trigger. | `EventEmitter<string>` | -
+`width` | 验证码宽度 | number | `100`
+`height` | 验证码高度 | number | `50`
+`(generateCode)` | 当验证码发生改变的回调函数，组件初始化或者点击验证码都会触发改方法 | `EventEmitter<string>` | -

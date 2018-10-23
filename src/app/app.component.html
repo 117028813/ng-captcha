@@ -1,0 +1,3 @@
+<input [(ngModel)]="inputCode">
+<captcha width="200" height="70" (generateCode)="onGenerateCode($event)"></captcha>
+<button (click)="verify()">Verify</button>

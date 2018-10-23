@@ -19,7 +19,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from "@angular/forms";
 
-import { CaptchaModule } from './captcha/captcha.module';
+import { CaptchaModule } from 'ng-captcha';
 
 import { AppComponent } from './app.component';
 
